@@ -1,0 +1,15 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+      color: #383838;
+      background-color: rgb(255, 255, 255);
+    }
+    #timer {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    h2{
+      font-family: cursive;
+    }
