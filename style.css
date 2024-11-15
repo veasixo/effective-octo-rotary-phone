@@ -1,13 +1,29 @@
 body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 20%;
-      color: #383838;
-      background-color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #252525;
     }
     #timer {
+      display: flex;
+      flex-direction: column;
       font-size: 2rem;
       font-weight: bold;
+    }
+
+    #timer div {
+      margin: 5px 0;
+    }
+    @media (max-width: 600px) {
+      #timer {
+        font-size: 1.5rem; /* Уменьшаем размер шрифта на мобильных устройствах */
+      }
     }
 
     h2{
